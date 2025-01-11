@@ -1,5 +1,5 @@
 # 공식 Python 이미지를 사용합니다.
-FROM python:3.10-slim
+FROM python:3.12-slim
 
 # 환경 변수 설정
 ENV PYTHONDONTWRITEBYTECODE 1
