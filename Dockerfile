@@ -27,7 +27,7 @@ RUN curl -sSL https://dl.google.com/linux/direct/google-chrome-stable_current_am
 
 # Python 패키지 설치
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # 애플리케이션 코드 복사
 COPY . .
